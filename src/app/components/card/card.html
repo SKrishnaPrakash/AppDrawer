@@ -1,0 +1,11 @@
+<div class="card-item">
+    <div class="card-body">
+        <i [class]="iconClass || 'fa-brands fa-app-store'"></i>
+        @if (cardTitle) {
+            <h4>{{cardTitle}}</h4>
+        }
+        @if (cardDescription) {
+            <p>{{cardDescription}}</p>
+        }
+    </div>  
+</div>

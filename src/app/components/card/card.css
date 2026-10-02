@@ -1,0 +1,35 @@
+.card-item {
+    height: 144px;
+    width: 144px;
+    border: 0px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: --bg-surface;
+}
+.card-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: translateY(-2px);
+}   
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 0px;
+}
+.card-body i {
+    font-size: 48px;
+    margin-bottom: 8px;
+}
+.card-body h4 {
+    font-size: 18px;
+    margin: 1px;
+}
+.card-body p {
+    font-size: x-small;
+    color: #666;
+    margin: 0px;
+}
