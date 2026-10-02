@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  /* Surfaces & Backgrounds */
+  --bg-app: #fcfcfc;          /* Canvas / App main background */
+  --bg-surface: #ffffff;      /* Cards, panels, modals */
+  --bg-subtle: #f4f5f6;       /* Hover rows, chips, input backgrounds */
+  --bg-muted: #e9ecef;        /* Disabled areas, progress tracks */
+
+  /* Borders & Dividers */
+  --border-subtle: #eeeeee;   /* Light dividers, card strokes */
+  --border-default: #e2e4e7;  /* Standard input & component borders */
+  --border-strong: #c8cbd0;   /* Focus rings, selected tab borders */
+
+  /* Text & Typography */
+  --text-primary: #121417;    /* Headings and primary copy (high contrast, non-harsh) */
+  --text-secondary: #5e6470;  /* Subtitles, meta tags, labels */
+  --text-muted: #949aa4;      /* Placeholders, disabled text */
+  --text-inverse: #ffffff;    /* Text on dark buttons */
+
+  /* Accents / Primary CTA */
+  --accent-base: #18191b;     /* High-impact black/near-black for primary buttons */
+  --accent-hover: #2d3034;    /* Hover state for buttons */
+  --accent-active: #090a0b;   /* Pressed state */
+
+  /* Focus & Elevation (Minimal shadows) */
+  --focus-ring: rgba(18, 20, 23, 0.15);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.05);
+}

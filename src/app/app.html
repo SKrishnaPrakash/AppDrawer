@@ -64,10 +64,10 @@
   }
 
   main {
+    margin-top: 68px;
     width: 100%;
     min-height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 1rem;
     box-sizing: inherit;
@@ -184,7 +184,7 @@
   }
 </style>
 
-<main class="main">
+<!-- <main class="main">
   <div class="content">
     <div class="left-side">
       <svg
@@ -330,7 +330,7 @@
       </div>
     </div>
   </div>
-</main>
+</main> -->
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
@@ -340,5 +340,8 @@
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<app-navbar/>
 
-<router-outlet />
+<main class="main-content">
+  <router-outlet />
+</main>
